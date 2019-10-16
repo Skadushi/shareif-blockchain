@@ -1,0 +1,28 @@
+{
+  "name": "shareif-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain for shareif chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skadushi/shareif-blockchain.git"
+  },
+  "keywords": [
+    "chat",
+    "blockchain",
+    "if"
+  ],
+  "author": "Andrei Deniz, Carlos Eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "savjeecoin": "^1.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Skadushi/shareif-blockchain/issues"
+  },
+  "homepage": "https://github.com/Skadushi/shareif-blockchain#readme"
+}
