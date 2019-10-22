@@ -45,7 +45,7 @@ class Block {
 
 class Blockchain {
   constructor() {
-    this.broadcast = genParKeys();
+    this.broadcast = this.genParKeys();
     this.chain = [this.createGenesisBlock()];
   }
 
@@ -76,7 +76,6 @@ class Blockchain {
       throw new Error('Message length should be higher than 0');
     }
     
-    block.previousHash = this.getLatestBlock().hash;
     this.chain.push(block);
   }
 
